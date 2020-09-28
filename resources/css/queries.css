@@ -1,0 +1,284 @@
+
+/*From Big tablet to 1200px-(Widths smaller than 1140PX)*/
+
+@media only screen and (max-width:1200px){
+    .tour-heading{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .tour-heading h1{
+       margin-top: 14%;
+        
+    }
+    .row{
+        padding: 0 2%;
+    }
+    .box p {
+        font-size: 15px;
+        width: 80%;
+        margin-left: 10%
+    }
+    .story-details{
+    width: 15%;
+    background-color: #b2a6a6;
+    height: 580px;
+}
+}
+
+
+/*Small Tablet to Big Tablet:768 to 1023PX*/
+@media only screen and (max-width:1023px){
+   
+    body{
+         font-size: 18px;
+    }
+    
+.main-nav{
+    font-size: 14px;
+    list-style: none;
+    margin-top: 15px;
+}
+    h1{
+        margin-top: 110px;
+    }
+    .box p {
+        font-size: 15px;
+        width: 70%;
+        margin-left: 20%
+    }
+    .plan-your-holiday{
+        width: 90%;
+        margin-left: 5%;
+        height: 80px;
+        
+        
+    }
+    .plan-div h3{
+            font-size: 15px;
+        width: 100px;
+    }
+    
+    .plan-div{
+         font-size: 12px;
+        text-align: center;
+        padding: 9px;
+    }
+    .plan-btn-full{
+        width: 70px;
+    }
+    .story-details{
+    width: 15%;
+    background-color: #b2a6a6;
+    height: 774px;
+}
+    .story-details p{
+    padding: 10px;
+    word-spacing: 1px;
+    line-height: 16px
+}
+    .story-details h6{
+     text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+    }
+    
+    blockquote{
+    position: relative;
+    text-align: center;
+    margin-top: 1px;
+    font-size: 20px;
+     margin-left: 45%;
+    color: red;
+    }
+    .section-contactus{
+        font-size: 13px;
+         width: 90%;
+        margin-left: 5%
+    }
+    .section-contactus h6{
+    font-size: 15px;
+        margin-bottom: 5px;
+}
+    .btn-app-android img{
+    height: 30px;
+} .btn-app-iphone img{
+    height: 30px;
+}
+    .International-group-tour-show-case{
+       height: 300px;
+    }
+    .International-img-showcase h3{
+         font-size: 18px;
+    }
+
+}
+/*Small phones to Small Tablets-481 to 767PX*/
+@media only screen and (max-width:767px){
+    body{
+        font-size:15px;
+    }
+    section{padding: 30px 0;}
+    .main-nav{
+        display: none;
+    }
+    .sticky{display: none;}
+    .main-nav{
+    font-size: 10px;
+    list-style: none;
+    margin-top: 5px;
+}
+    .main-nav li{
+        display: inline-block;
+        margin-left : 4px;
+        margin-top: 10px;
+        padding: 3px;}
+    .tour-features{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+       }
+    .tour-features p{
+        font-size: 12px;
+        word-spacing: 0px;
+    }
+    
+    .deals-of-week{
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    height: 30px;
+   
+    
+}
+    .deals-of-week h3{
+    font-size: 14px;
+         text-align: center;
+        margin-left: 9%
+     }
+    .btn{
+    text-decoration: none;
+    float: right;
+    background-color: red;
+    padding: 3px;
+    width: auto;
+    height: 20px;
+    text-align: center;
+    color: white;
+}
+    .International-group-tour-show-case{
+         height: 250px;
+    }
+    .International-group-tour-show-case h3{
+         font-size: 14px;
+         text-align: center;
+    }
+     .International-group-tour-show-case p{
+         font-size: 14px;
+         text-align: center;
+    }
+    .International-img-showcase img{
+    opacity: 0.7;
+     width: 110%;
+    padding: 11px;
+   transform: scale(1.20);
+    transition: transform 0.5s;opacity: 0.5s;
+}
+    .plan-your-holiday{
+  background-color: white;
+    width: 100%;
+   margin-left: 3.5%;
+  height: 70px;       
+}
+    .plan-your-holiday h3{
+         font-size: 13px;
+    }
+    .plan-btn-full{
+  width: 59px;
+    height: auto;
+        margin-right: 12%
+   
+}.plan-div{
+    font-size: 11px;
+  padding: 0px;
+    height: auto;
+}
+.plan-div h3{
+  font-size: 13px;
+    
+   }
+    .kesari-story-heading h3{
+        font-size: 13px;
+        text-align: center
+    }
+    .story-details{
+    width: 25%;
+    background-color: gainsboro;
+    height: 500px;
+    
+}
+    .story-details h6{
+     text-align: center;
+    margin-top: 40px;
+    font-size: 13px;
+    
+}
+    .story-details p{
+    padding: 5px;
+    word-spacing: 1px;
+    line-height: 10px;
+   font-size: 11px;
+}
+    blockquote{font-size: 15px;}
+    .icon-bar{width: 8%;}
+    cite img{
+        height: 50px;
+        border-radius: 50%;
+        width: 35%;}
+.section-contactus h6{font-size: 12px;margin-left: 5%;
+    margin-bottom: 15px}
+    .contact-us p{ font-size: 10px;margin-left: 5%;}
+    .section-contactus {
+      height: 140px;
+    }
+    .btn-app-android img{
+    height: 25px;
+        float: right;
+}
+    .btn-app-iphone img{ height: 25px;
+     float: right;}
+    .btn{
+        width: 30%;
+        height: 25px;
+        float: right;
+    }
+   
+    
+}
+
+
+/*Small Phones from 0 to 480PX*/
+@media only screen and (max-width:480px){
+    .box p{
+        font-size: 14px;
+        margin-left: 15%
+    }
+    .deals-of-week h3{
+      font-size: 13px;
+        float: left}
+    .International-img-showcase{
+        width: 100%;
+        
+    }
+    .International-img-showcase img{
+        width: 80%;
+        margin-left: 10%;
+        }
+    .International-img-showcase p{
+        margin-bottom: 20px;
+    }
+    .plan-your-holiday{
+       
+    }
+    
+    
+}
