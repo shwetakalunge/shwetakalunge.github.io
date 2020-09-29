@@ -228,9 +228,10 @@ color: red;
 }
 .plan-div{
     font-size: 20px;
-  padding: 10px;
+  padding: 10px 5px;
     height: auto;
      margin-top: 0px;
+    
     
 }
 .plan-div h3{
