@@ -15,16 +15,16 @@ html,body{
     overflow-x: hidden;
 }
 
-/*.clearfix{
+.clearfix{
     zoom:1
-}*/
-/*.clearfix:after{
+}
+.clearfix:after{
     content: ".";
     clear: both;
     display: block;
     height: 0;
     visibility: hidden
-}*/
+}
 .row{
     max-width: 1140px;
     margin: 0 auto;
@@ -43,6 +43,7 @@ section{
 
 /*-------------------------MAin Navigation-------------------------------------------*/
 .main-nav{
+    
     float:right;
     list-style: none;
     margin-top: 10px;
@@ -64,10 +65,12 @@ section{
    
         
 }
+
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 3px solid #f52121
 }
+
 
 /*----------------STICKY NAVIGATION------------------------*/
 
@@ -77,20 +80,15 @@ section{
     left: 0;
     width: 100%;
     background-color: whitesmoke;
-  
-        
 }
 
 /*--------------------------------Headers-------------------------------------------------------*/
 
 
 h1{
-    color: #ce2121;
+    color: rgb(255, 20, 0);
     text-align: center;
    margin-top: 90px;
-    
-    
-    
 }
 
 h3{
@@ -113,7 +111,9 @@ h3{
 
 .tour-features{
     background-color: white;
+   
 }
+
 
 /*------------------------------------------TOURS TYPES--------------------------------------------------------------------------*/
 
