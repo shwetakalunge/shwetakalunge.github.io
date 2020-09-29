@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     }
 
@@ -36,6 +37,7 @@ section{
 .logo{
     width: 50px;
     height: auto;
+    background-image: -webkit-gradient(linear, left top, right top, from(#4f5050) , to(#ccd4d4));
     background-image: linear-gradient(to right, #4f5050 , #ccd4d4);
 }
 
@@ -44,6 +46,7 @@ section{
     float:right;
     list-style: none;
     margin-top: 10px;
+   background-image: -webkit-gradient(linear, left top, right top, from(#4f5050) , to(#ccd4d4));
    background-image: linear-gradient(to right, #4f5050 , #ccd4d4);
     
     
@@ -121,6 +124,7 @@ h3{
 .tours-main-types img{
   margin-bottom: 0px;
     width: 100%;
+     -webkit-box-shadow: 0 2px rgba(67, 48, 48, 0.41);
      box-shadow: 0 2px rgba(67, 48, 48, 0.41);
     }
 .tours-main-types a{
@@ -137,6 +141,7 @@ color: red;
     font-size: 20px;
     height: 30px;
     text-align: center;
+    -webkit-box-shadow: 0 2px rgba(67, 48, 48, 0.41);
     box-shadow: 0 2px rgba(67, 48, 48, 0.41);
 }
 /*---------------------------------------------DEALS OF THE WEEK--------------------------------------------------------------------------*/
@@ -189,14 +194,19 @@ color: red;
     opacity: 0.7;
      width: 100%;
     padding: 20px;
+   -webkit-transform: scale(1.15);
    transform: scale(1.15);
-    transition: transform 0.5s;opacity: 0.5s;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;opacity: 0.5s;
     
     
 }
 
 .International-img-showcase img:hover{
     opacity: 1;
+    -webkit-transform: scale(1);
     transform: scale(1);
 }
 
@@ -216,6 +226,7 @@ color: red;
    margin-left: 5%;
   height: 110px;
     background-color: black;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(#59d9ff));
   background-image: linear-gradient(rgb(0, 0, 0), #59d9ff);
         
 }
@@ -252,7 +263,6 @@ color: red;
   position: fixed;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -261,6 +271,7 @@ color: red;
   display: block;
   text-align: center;
   padding: 16px;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
