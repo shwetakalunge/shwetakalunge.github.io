@@ -305,26 +305,42 @@
         margin-bottom: 20px;
     }
     .plan-your-holiday{
-      margin-top:100px;
-        height: 300px;
+      margin-top:1100px;
+        height: 200px;
         width: 100%;
     }
     .plan-your-holiday h3{
-        margin-left: 175px;
+        margin-left: 125px;
         text-align: center;
          margin-bottom: 2px;
         
     }
     .plan-div{
-       padding: 3px;
-        
+       padding: 1px 13px;
     }
     .plan-btn-full{
-        float: left;
-        margin-right: 250px;
-          margin-left: 185px;
-      
-    
+      text-align: center;
+    }
+    .plan-div a{
+        padding: 5px 10px;
+        margin-right: 125px;
+    }
+      select{
+        width: 70px;
+       padding: 1px 1px;
+           align-content: center;
+            margin-top: 1px;
+            font-size: 9px;
+          margin-right: 120px
+        
+     }
+    .plan-div a{
+        width: 20%;
+        height: 30px;
+        margin-bottom: 0px;
+        float: right;
+        
+            
     }
     .story-section{
      height: 50px;
